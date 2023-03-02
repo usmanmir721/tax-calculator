@@ -1,0 +1,53 @@
+<html>
+
+<head> 
+<title>Employee Enrollment </title>
+<link rel="stylesheet" href="tax-calculator-style.css">
+</head>
+
+<script src="taxCalc.js"></script>
+ 
+<body>
+
+<h1>EMPLOYEE ENROLLMENT FORM</h1>
+
+<br><br>
+
+<table class='table-center'>
+<tr>
+  <td>Name:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Email:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Phone:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Job Position:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Department:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Tax Filing Number:</td>
+  <td><input name='eName' id ='eName'/></td>
+</tr>
+<tr>
+  <td>Salary Expectation: &nbsp;</td>
+  <td><input name="eExpSalary" id ="eExpSalary" onKeyUp='attachTaxCalcToForm()'/></td>
+</tr>
+</table>
+
+<br><br>
+
+<div class="center-aligned-text bold-font">TAX PAYABLE: &nbsp; <span name='tax' id = 'tax' style='color: red' /> </div>
+
+</body>
+
+</html>

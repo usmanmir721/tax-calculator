@@ -1,0 +1,18 @@
+h1 {
+ color: blue; 
+ text-align: center
+}
+
+.table-center {
+  margin-left:auto;
+  margin-right:auto
+}
+
+.center-aligned-text {
+  text-align: center
+}
+
+.bold-font {
+  font-weight: bold
+}
+
